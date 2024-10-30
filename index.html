@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Information</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Vehicle Information Hub</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#features">Features</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Vehicles</h2>
+        <p>Explore detailed information about a wide variety of vehicles. Learn about their specifications, features, and pricing.</p>
+        <input type="text" id="search" placeholder="Search by vehicle name..." onkeyup="searchVehicle()">
+    </section>
+
+    <section id="vehicle-info">
+        <h2>Vehicle Details</h2>
+        <div id="vehicle-container"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Vehicle Info Hub. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
